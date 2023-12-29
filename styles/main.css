@@ -1,0 +1,89 @@
+#player_one {
+  display: flex;
+  flex-direction: row;
+  gap: -10px;
+}
+#player_two {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1.6fr 0.7fr 0.7fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "p2 p2 dealer1"
+    "table deck ."
+    "p1 p1 dealer2";
+}
+
+.p2 { grid-area: p2; }
+
+.p1 { grid-area: p1; }
+
+.table { grid-area: table; }
+
+.deck { grid-area: deck; }
+
+
+.dealer1 { grid-area: dealer1; }
+
+.dealer2 { grid-area: dealer2; }
+
+
+
+h3 {
+  margin: 0;
+}
+
+.dealer1, .dealer2 {
+  transform: scaleX(-1);
+  margin: auto;
+  visibility: hidden;
+}
+
+.dealer1 img, .dealer2 img {
+  width: 80%;
+}
+
+.cartoon-div {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #b75700;
+  /* border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  position: relative; */
+  margin-top: 1vh;
+}
+
+#draw {
+  display: flex;
+  flex-direction: column;
+}
+
+#remainingCards {
+  position: relative;
+}
+
+/* .cartoon-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  right: -10px;
+  bottom: 0;
+  background: radial-gradient(circle, #ffffff -17%, transparent 131%);
+  opacity: 0.7;
+  border-radius: 20px;
+} */
+
+.draw-card {
+  margin: auto;
+  width: 150px;
+  height: 70px;
+}

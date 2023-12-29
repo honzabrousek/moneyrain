@@ -1,0 +1,49 @@
+.menu {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align the content */
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#easyBtn {
+  background-color: #2ecc71; /* Green */
+}
+
+#mediumBtn {
+  background-color: #e67e22; /* Orange */
+}
+
+#hardBtn {
+  background-color: #e74c3c; /* Red */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #3498db;
+}
+
+button:hover {
+  filter: brightness(0.9); /* Darken the button on hover */
+}

@@ -1,0 +1,130 @@
+.card {
+  width: 110px;
+  height: 195px;
+  display: inline-block;
+  margin: 10px;
+  background-repeat: no-repeat;
+}
+.card:hover {
+  cursor: pointer;
+}
+
+.card-back {
+  background-image: url(../img/cards/back.png);
+}
+
+.card-table {
+  position: absolute;
+}
+
+
+
+/* HHHHHHHHHHHHHHHHHHHHHHH */
+.card-7h {
+  background-image: url(../img/cards/h/7h.png);
+}
+.card-8h {
+  background-image: url(../img/cards/h/8h.png);
+}
+.card-9h {
+  background-image: url(../img/cards/h/9h.png);
+}
+.card-1h {
+  background-image: url(../img/cards/h/10h.png);
+}
+.card-uh {
+  background-image: url(../img/cards/h/Jh.png);
+}
+.card-oh {
+  background-image: url(../img/cards/h/Qh.png);
+}
+.card-kh {
+  background-image: url(../img/cards/h/Kh.png);
+}
+.card-ah {
+  background-image: url(../img/cards/h/Ah.png);
+}
+
+
+
+/* BBBBBBBBBBBBBBBBBBBB */
+.card-7b {
+  background-image: url(../img/cards/b/7b.png);
+}
+.card-8b {
+  background-image: url(../img/cards/b/8b.png);
+}
+.card-9b {
+  background-image: url(../img/cards/b/9b.png);
+}
+.card-1b {
+  background-image: url(../img/cards/b/10b.png);
+}
+.card-ub {
+  background-image: url(../img/cards/b/Jb.png);
+}
+.card-ob {
+  background-image: url(../img/cards/b/Qb.png);
+}
+.card-kb {
+  background-image: url(../img/cards/b/Kb.png);
+}
+.card-ab {
+  background-image: url(../img/cards/b/Ab.png);
+}
+
+
+
+/* AAAAAAAAAAAAAAAAAAAAA */
+.card-7a {
+  background-image: url(../img/cards/a/7a.png);
+}
+.card-8a {
+  background-image: url(../img/cards/a/8a.png);
+}
+.card-9a {
+  background-image: url(../img/cards/a/9a.png);
+}
+.card-1a {
+  background-image: url(../img/cards/a/10a.png);
+}
+.card-ua {
+  background-image: url(../img/cards/a/Ja.png);
+}
+.card-oa {
+  background-image: url(../img/cards/a/Qa.png);
+}
+.card-ka {
+  background-image: url(../img/cards/a/Ka.png);
+}
+.card-aa {
+  background-image: url(../img/cards/a/Aa.png);
+}
+
+
+
+/* LLLLLLLLLLLLLLL */
+.card-7l {
+  background-image: url(../img/cards/l/7l.png);
+}
+.card-8l {
+  background-image: url(../img/cards/l/8l.png);
+}
+.card-9l {
+  background-image: url(../img/cards/l/9l.png);
+}
+.card-1l {
+  background-image: url(../img/cards/l/10l.png);
+}
+.card-ul {
+  background-image: url(../img/cards/l/Jl.png);
+}
+.card-ol {
+  background-image: url(../img/cards/l/Ql.png);
+}
+.card-kl {
+  background-image: url(../img/cards/l/Kl.png);
+}
+.card-al {
+  background-image: url(../img/cards/l/Al.png);
+}
